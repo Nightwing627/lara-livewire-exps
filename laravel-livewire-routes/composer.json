@@ -1,0 +1,29 @@
+{
+    "name": "bastinald/laravel-livewire-routes",
+    "homepage": "https://github.com/bastinald/laravel-livewire-routes",
+    "description": "Laravel Livewire full page component routing.",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Kevin Dion",
+            "email": "bastinald@icloud.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "laravel/framework": "^8.0",
+        "livewire/livewire": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Bastinald\\LaravelLivewireRoutes\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Bastinald\\LaravelLivewireRoutes\\Providers\\LaravelLivewireRoutesProvider"
+            ]
+        }
+    }
+}
